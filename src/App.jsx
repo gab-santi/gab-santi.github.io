@@ -1,7 +1,17 @@
-import React from 'react'
-import styles from './styles'
+import React from "react";
+import styles from "./styles";
 
-import { Navbar, Hero, About, Portfolio, Resume, Footer } from './components'
+import {
+  Navbar,
+  Hero,
+  Stats,
+  Projects,
+  About,
+  Portfolio,
+  Resume,
+  ContactPage,
+  Footer,
+} from "./components";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -19,14 +29,16 @@ const App = () => (
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        About
-        Resume
-        Portfolio
-        Contact
-        Footer
+        <Stats />
+        <Projects />
+        <About />
+        <Resume />
+        <Portfolio />
+        <ContactPage />
+        <Footer />
       </div>
     </div>
   </div>
-)
+);
 
-export default App
+export default App;
