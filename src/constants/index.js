@@ -207,3 +207,27 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+// added by Gab
+export const languages = [
+  {
+    id: "language-1",
+    text: "python",
+  },
+  {
+    id: "language-2",
+    text: "SQL",
+  },
+  {
+    id: "language-3",
+    text: "linux",
+  },
+  {
+    id: "language-1",
+    text: "cloud",
+  },
+  {
+    id: "language-1",
+    text: "javascript",
+  },
+];

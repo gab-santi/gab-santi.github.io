@@ -1,27 +1,28 @@
 import styles from "../styles";
 import React from "react";
 import ContactMe from "./ContactMe";
-import { robot } from "../assets";
+import { portrait } from "../assets";
+import { languages } from "../constants";
 
 {
   /* Hero component */
 }
 const Hero = () => (
   // main section
-  <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+  <section id="home" className="flex md:flex-row flex-col sm:py-0 py-6">
     {/* subheader section */}
     <div
       className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
     >
       <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
-        <p className={`${styles.paragraph} ml-2`}>
-          <span className="text-white">Hello world!</span>
+        <p className={`${styles.paragraph}`}>
+          <span className="text-white">Hello, world!</span>
         </p>
       </div>
 
-      {/* main header se ction */}
+      {/* main header section */}
       <div className="flex flex-row justify-between items-center w-full">
-        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
+        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-black ss:leading-[100px] leading-[75px]">
           My name is
         </h1>
 
@@ -30,7 +31,7 @@ const Hero = () => (
         </div>
       </div>
 
-      <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-gradient ss:leading-[100px] leading-[75px] w-full">
+      <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-sky-600 ss:leading-[100px] leading-[75px] w-full">
         Gab Santiago.
       </h1>
 
@@ -38,12 +39,25 @@ const Hero = () => (
         I am a Data Engineer by profession. On the side, I like dabbling with
         different technologies.
       </p>
+
+      <div className="flex flex-row justify-between-items-center w-full mt-10">
+        {languages.map((language, index) => (
+          <div
+            id={index}
+            className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 mr-3"
+          >
+            <p className={`${styles.languageLabel}`}>
+              <span className="text-white">{language.text}</span>
+            </p>
+          </div>
+        ))}
+      </div>
     </div>
 
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
       <img
-        src={robot}
-        alt="billing"
+        src={portrait}
+        alt="portrait"
         className="w-[100%] h-[100%] relative z-[5]"
       />
 
