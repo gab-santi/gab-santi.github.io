@@ -1,4 +1,19 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -19,27 +34,24 @@ export const navLinks = [
   },
 ];
 
-export const features = [
+export const projects = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    title: "Data Engineering Pipelines",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "End-to-end automated pipelines for generating reports, pulling from various sources.",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    title: "Full-Stack Websites",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Responsive and scalable websites with backend servers, from ideation to deployment.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    title: "Desktop Apps",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Local packaged instances of applications. Take everything you need offline.",
   },
 ];
 
@@ -158,22 +170,22 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/gaabsanti",
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/gbsssss",
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://www.twitter.com/FreisITG",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/gab-santi/",
   },
 ];
 
