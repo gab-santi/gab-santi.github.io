@@ -21,6 +21,7 @@ const styles = {
 
 export const layout = {
   section: `flex md:flex-row flex-col ${styles.paddingY}`,
+  sectionIrreg: `flex flex-col ${styles.paddingY}`,
   sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
 
   sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,

@@ -13,6 +13,7 @@ import {
   send,
   shield,
   star,
+  placeholder,
 } from "../assets";
 
 export const navLinks = [
@@ -223,11 +224,33 @@ export const languages = [
     text: "linux",
   },
   {
-    id: "language-1",
+    id: "language-4",
     text: "cloud",
   },
   {
-    id: "language-1",
+    id: "language-5",
     text: "javascript",
+  },
+];
+
+// added by Gab
+export const portfolio = [
+  {
+    id: "twitter-etl",
+    image: placeholder,
+    name: "Twitter Airflow Pipleine",
+    description: "Placeholder text that I need to change later.",
+  },
+  {
+    id: "twitter-discord-bot",
+    image: placeholder,
+    name: "Twitter Discord Bot",
+    description: "Placeholder text that I need to change later.",
+  },
+  {
+    id: "personal-website",
+    image: placeholder,
+    name: "Personal Portfolio Website",
+    description: "Placeholder text that I need to change later",
   },
 ];
