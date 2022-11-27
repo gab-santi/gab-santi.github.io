@@ -21,6 +21,9 @@ const styles = {
   textInputLabel: "font-poppins mb-2",
   textInputSmall: "border-solid border-2 mb-4",
   textInputLarge: "border-solid border-2 mb-4 h-[90px]",
+
+  formInputError: "flex flex-row font-poppins text-red-500",
+  formErrorIcon: "mt-0.5 mr-2",
 };
 
 export const layout = {
