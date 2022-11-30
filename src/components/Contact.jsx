@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import styles, { layout } from "../styles";
 import { useForm } from "react-hook-form";
 import { BiErrorCircle } from "react-icons/bi";
+import { credentials } from "../constants/emailjs_creds";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   // initialize form vars
@@ -11,8 +15,38 @@ const Contact = () => {
     formState: { errors },
   } = useForm({ mode: "onChange" });
 
+  const formRef = useRef();
+
+  const [isLoading, setIsLoading] = useState(false);
+
+  const sendEmail = () => {
+    setIsLoading(true);
+
+    emailjs
+      .sendForm(
+        credentials.service_id,
+        credentials.template_id,
+        formRef.current,
+        credentials.public_key
+      )
+      .then(
+        (result) => {
+          setIsLoading(false);
+          toast.success("Your message has been sent!", {
+            position: toast.POSITION.TOP_CENTER,
+          });
+        },
+        (error) => {
+          toast.error("Please try again.", {
+            position: toast.POSITION.TOP_CENTER,
+          });
+          setIsLoading(false);
+        }
+      );
+  };
+
   // TODO change to EmailJS API call
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => sendEmail(data);
 
   return (
     <section id="contact" className={layout.section}>
@@ -27,13 +61,18 @@ const Contact = () => {
       </div>
 
       <div className="md:mt-0 mt-6 md:w-[35%] w-full">
-        <form className="flex flex-col" onSubmit={handleSubmit(onSubmit)}>
+        <form
+          ref={formRef}
+          className="flex flex-col"
+          onSubmit={handleSubmit(onSubmit)}
+        >
           <label className={styles.textInputLabel}>Your Name</label>
           <input
             {...register("name", { required: "Your name is required." })}
             type="text"
             name="name"
             className={styles.textInputSmall}
+            disabled={isLoading}
           />
           {errors.name && (
             <p className={styles.formInputError}>
@@ -52,6 +91,7 @@ const Contact = () => {
             type="text"
             name="email"
             className={styles.textInputSmall}
+            disabled={isLoading}
           />
           {errors.email && (
             <p className={styles.formInputError}>{errors.email?.message}</p>
@@ -69,6 +109,7 @@ const Contact = () => {
             type="text"
             name="message"
             className={styles.textInputLarge}
+            disabled={isLoading}
           />
           {errors.message && (
             <p className={styles.formInputError}>
@@ -80,9 +121,11 @@ const Contact = () => {
           <input
             type="submit"
             value="Send"
-            className="py-4 px-6 bg-sky-600 font-poppins font-medium text-[18px] text-primary outline-none mt-4"
+            className="py-4 px-6 bg-sky-600 font-poppins font-medium text-[18px] text-primary outline-none mt-4 disabled:bg-neutral-400"
+            disabled={isLoading}
           />
         </form>
+        <ToastContainer bodyClassName="font-poppins" autoClose={2500} />
       </div>
     </section>
   );
