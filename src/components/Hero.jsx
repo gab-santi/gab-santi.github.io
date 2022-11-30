@@ -40,9 +40,10 @@ const Hero = () => (
         different technologies.
       </p>
 
-      <div className="flex flex-row justify-between-items-center w-full mt-10">
+      <div className="flex flex-wrap flex-row justify-between-items-center w-full mt-10">
         {languages.map((language, index) => (
           <div
+            key={language.id}
             id={index}
             className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 mr-3"
           >

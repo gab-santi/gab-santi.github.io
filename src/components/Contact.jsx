@@ -125,7 +125,7 @@ const Contact = () => {
             disabled={isLoading}
           />
         </form>
-        <ToastContainer bodyClassName="font-poppins" autoClose={2500} />
+        <ToastContainer bodyClassName="font-poppins" autoClose={3000} />
       </div>
     </section>
   );
