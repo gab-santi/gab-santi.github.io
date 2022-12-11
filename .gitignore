@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# API credentials
+src/constants/emailjs_creds.js

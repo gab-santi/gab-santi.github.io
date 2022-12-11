@@ -239,18 +239,20 @@ export const portfolio = [
     id: "twitter-etl",
     image: placeholder,
     name: "Twitter Airflow Pipleine",
-    description: "Placeholder text that I need to change later.",
+    description:
+      "End-to-end data pipeline written in Python that pulls from tweets, deployed thru Airflow and AWS EC2.",
   },
   {
     id: "twitter-discord-bot",
     image: placeholder,
     name: "Twitter Discord Bot",
-    description: "Placeholder text that I need to change later.",
+    description:
+      "Discord bot written in Python that pulls latest tweet data from users, deployed thru Heroku.",
   },
   {
     id: "personal-website",
     image: placeholder,
     name: "Personal Portfolio Website",
-    description: "Placeholder text that I need to change later",
+    description: "This cool thing.",
   },
 ];
