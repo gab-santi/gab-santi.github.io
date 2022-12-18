@@ -1,16 +1,13 @@
 import React from "react";
 import styles from "./styles";
+import { Route, Routes } from "react-router-dom";
 
 import {
   Navbar,
-  Hero,
-  Stats,
-  Projects,
-  About,
-  Portfolio,
-  Resume,
-  ContactPage,
-  Footer,
+  HomePage,
+  AboutPage,
+  PortfolioPage,
+  ResumePage,
 } from "./components";
 
 const App = () => (
@@ -21,21 +18,12 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero />
-      </div>
-    </div>
-
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Stats />
-        <Projects />
-        <Portfolio />
-        <ContactPage />
-        <Footer />
-      </div>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/about" element={<AboutPage />} />
+      <Route path="/portfolio" element={<PortfolioPage />} />
+      <Route path="/resume" element={<ResumePage />} />
+    </Routes>
   </div>
 );
 
