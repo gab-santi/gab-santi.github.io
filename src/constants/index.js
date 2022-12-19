@@ -14,6 +14,7 @@ import {
   shield,
   star,
   placeholder,
+  aboutMePlaceholder,
 } from "../assets";
 
 export const navLinks = [
@@ -254,5 +255,16 @@ export const portfolio = [
     image: placeholder,
     name: "Personal Portfolio Website",
     description: "This cool thing.",
+  },
+];
+
+// added by Gab
+export const aboutMeContent = [
+  {
+    id: "about-me-1",
+    image: aboutMePlaceholder,
+    topic: "dummy",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem et tortor consequat id porta nibh venenatis cras. Auctor urna nunc id cursus metus. In fermentum et sollicitudin ac orci phasellus. Tristique senectus et netus et malesuada. Viverra mauris in aliquam sem fringilla ut morbi tincidunt. Velit euismod in pellentesque massa placerat duis ultricies lacus. Ut ornare lectus sit amet est placerat in. Quis blandit turpis cursus in hac habitasse. Congue quisque egestas diam in arcu cursus euismod quis. Nec ullamcorper sit amet risus nullam. Mauris cursus mattis molestie a iaculis at. Vitae et leo duis ut diam. Ut morbi tincidunt augue interdum velit euismod in pellentesque massa. Dolor sed viverra ipsum nunc aliquet bibendum. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Eget sit amet tellus cras adipiscing.",
+    imageCaption: "This is the image caption. December 19, 2022.",
   },
 ];

@@ -25,6 +25,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import portrait from "./portrait.png";
 import placeholder from "./placeholder.png";
+import aboutMePlaceholder from "./about_me_placeholder.jpg";
 
 export {
   airbnb,
@@ -54,4 +55,5 @@ export {
   people03,
   portrait,
   placeholder,
+  aboutMePlaceholder,
 };
