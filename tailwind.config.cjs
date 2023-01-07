@@ -13,6 +13,7 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         shareTechMono: ["Share Tech Mono", "monospace"],
+        azeretMono: ["Azeret Mono", "monospace"],
       },
     },
     screens: {

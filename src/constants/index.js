@@ -240,6 +240,7 @@ export const portfolio = [
     id: "twitter-etl",
     image: placeholder,
     name: "Twitter Airflow Pipleine",
+    url: "https://www.google.com/",
     description:
       "End-to-end data pipeline written in Python that pulls from tweets, deployed thru Airflow and AWS EC2.",
   },
@@ -247,6 +248,7 @@ export const portfolio = [
     id: "twitter-discord-bot",
     image: placeholder,
     name: "Twitter Discord Bot",
+    url: "https://www.google.com/",
     description:
       "Discord bot written in Python that pulls latest tweet data from users, deployed thru Heroku.",
   },
@@ -254,6 +256,7 @@ export const portfolio = [
     id: "personal-website",
     image: placeholder,
     name: "Personal Portfolio Website",
+    url: "https://www.google.com/",
     description: "This cool thing.",
   },
 ];
