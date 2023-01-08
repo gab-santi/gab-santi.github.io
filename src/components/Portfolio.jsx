@@ -36,7 +36,7 @@ const Portfolio = () => (
     </div>
 
     <div className={layout.section}>
-      {portfolio.map((entry, index) => (
+      {portfolio.slice(0, 3).map((entry, index) => (
         <PorfolioCard key={entry.id} {...entry} index={index} />
       ))}
     </div>

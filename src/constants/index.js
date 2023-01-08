@@ -257,7 +257,39 @@ export const portfolio = [
     image: placeholder,
     name: "Personal Portfolio Website",
     url: "https://www.google.com/",
-    description: "This cool thing.",
+    description:
+      "This cool website, made with Vite, React.js, and TailwindCSS.",
+  },
+  {
+    id: "electron-react-frontend",
+    image: placeholder,
+    name: "Electron + React App Frontend",
+    url: "https://www.google.com/",
+    description:
+      "A desktop app UI proof-of-concept, developed using React.js and Electron.",
+  },
+  {
+    id: "facebook-page-scraper",
+    image: placeholder,
+    name: "Facebook Page Scraper",
+    url: "https://www.google.com/",
+    description: "Scrapes public Facebook page post data without an API key.",
+  },
+  {
+    id: "Exercise Tracker Website",
+    image: placeholder,
+    name: "Facebook Page Scraper",
+    url: "https://www.google.com/",
+    description:
+      "Full-stack exercise tracker developed using the MERN (MongoDB, Express.js, React.js, node.js) stack framework.",
+  },
+  {
+    id: "malaria-detection",
+    image: placeholder,
+    name: "Malaria Detection Using Convolutional Neural Networks",
+    url: "https://www.google.com/",
+    description:
+      "A deep learning model that can detect malaria presence in blood smear images, developed using OpenCV, TensorFlow, and Keras.",
   },
 ];
 
