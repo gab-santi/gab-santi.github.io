@@ -296,10 +296,24 @@ export const portfolio = [
 // added by Gab
 export const aboutMeContent = [
   {
-    id: "about-me-1",
+    id: "work",
     image: aboutMePlaceholder,
     topic: "dummy",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem et tortor consequat id porta nibh venenatis cras. Auctor urna nunc id cursus metus. In fermentum et sollicitudin ac orci phasellus. Tristique senectus et netus et malesuada. Viverra mauris in aliquam sem fringilla ut morbi tincidunt. Velit euismod in pellentesque massa placerat duis ultricies lacus. Ut ornare lectus sit amet est placerat in. Quis blandit turpis cursus in hac habitasse. Congue quisque egestas diam in arcu cursus euismod quis. Nec ullamcorper sit amet risus nullam. Mauris cursus mattis molestie a iaculis at. Vitae et leo duis ut diam. Ut morbi tincidunt augue interdum velit euismod in pellentesque massa. Dolor sed viverra ipsum nunc aliquet bibendum. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Eget sit amet tellus cras adipiscing.",
-    imageCaption: "This is the image caption. December 19, 2022.",
+    text: "I am a data engineer based in the Philippines, with experience in creating ETL pipelines on-premise and in the cloud. I also have a bit of experience with web development and desktop app development. Currently, I work as a Data Engineering Expert for Globe Telecom, Inc.",
+    imageCaption: "Placeholder caption.",
+  },
+  {
+    id: "work",
+    image: aboutMePlaceholder,
+    topic: "dummy",
+    text: "I was born and raised in Manila, specifically in Las Pinas City. I grew up tinkering with various gadgets, from laptops to gaming consoles. I was always curious about how things worked and how to solve problems, which made me inclined to have a career in the IT industry.",
+    imageCaption: "Placeholder caption.",
+  },
+  {
+    id: "work",
+    image: aboutMePlaceholder,
+    topic: "dummy",
+    text: "Outside of programming, I do a myriad of things. I like reading, listening to music, traveling, partying, going to the gym, and playing rhythm games competitively, mainly StepMania (SM/ITG) and Sound Voltex (SDVX). I’ve won my share of tournaments, both in-person and online, for both games. I usually stream every Sunday and Monday on Twitch!",
+    imageCaption: "Placeholder caption.",
   },
 ];
