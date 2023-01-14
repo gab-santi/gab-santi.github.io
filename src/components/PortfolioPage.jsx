@@ -17,18 +17,19 @@ const PortfolioPage = () => {
 
           {/* TODO Portfolio content */}
           {portfolio.map((content, index) => (
-            <a href={content.url} target="_blank" rel="noopener noreferrer">
+            <a
+              href={content.url}
+              key={content.id}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div
                 key={content.id}
                 id={index}
                 //onClick={onClickUrl(content.url)}
                 className="flex flex-col px-5 pt-5 hover:bg-stone-200"
               >
-                <div
-                  key={content.id}
-                  id={index}
-                  className="flex flex-col sm:flex-row mb-5"
-                >
+                <div id={index} className="flex flex-col sm:flex-row mb-5">
                   <div className="h-full w-[10%] flex justify-center align-middle mb-5 sm:mb-0">
                     <span className="font-azeretMono font-semibold text-lg text-center">
                       {("00" + (index + 1)).slice(-2)}
