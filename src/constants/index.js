@@ -240,7 +240,7 @@ export const portfolio = [
     id: "twitter-etl",
     image: placeholder,
     name: "Twitter Airflow Pipleine",
-    url: "https://www.google.com/",
+    url: "https://github.com/gab-santi/Twitter-Airflow-Project",
     description:
       "End-to-end data pipeline written in Python that pulls from tweets, deployed thru Airflow and AWS EC2.",
   },
@@ -256,7 +256,7 @@ export const portfolio = [
     id: "personal-website",
     image: placeholder,
     name: "Personal Portfolio Website",
-    url: "https://www.google.com/",
+    url: "https://github.com/gab-santi/gabsanti-portfolio-website",
     description:
       "This cool website, made with Vite, React.js, and TailwindCSS.",
   },
@@ -264,7 +264,7 @@ export const portfolio = [
     id: "electron-react-frontend",
     image: placeholder,
     name: "Electron + React App Frontend",
-    url: "https://www.google.com/",
+    url: "https://github.com/gab-santi/electron-react-frontend",
     description:
       "A desktop app UI proof-of-concept, developed using React.js and Electron.",
   },
@@ -277,9 +277,9 @@ export const portfolio = [
   },
   {
     id: "Exercise Tracker Website",
-    image: placeholder,
+    simage: placeholder,
     name: "Facebook Page Scraper",
-    url: "https://www.google.com/",
+    url: "https://github.com/gab-santi/facebook-page-scraper",
     description:
       "Full-stack exercise tracker developed using the MERN (MongoDB, Express.js, React.js, node.js) stack framework.",
   },
@@ -287,7 +287,7 @@ export const portfolio = [
     id: "malaria-detection",
     image: placeholder,
     name: "Malaria Detection Using Convolutional Neural Networks",
-    url: "https://www.google.com/",
+    url: "https://github.com/gab-santi/Malaria-Detection-using-Convolutional-Neural-Networks",
     description:
       "A deep learning model that can detect malaria presence in blood smear images, developed using OpenCV, TensorFlow, and Keras.",
   },
