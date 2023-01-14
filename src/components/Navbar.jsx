@@ -3,10 +3,12 @@ import { useState } from "react";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
-  const [active, setActive] = useState("Home");
+  const currentLoc = useLocation().pathname.substring(1);
+
+  const [active, setActive] = useState(currentLoc);
   const [toggle, setToggle] = useState(false);
 
   return (
@@ -18,9 +20,9 @@ const Navbar = () => {
           <li
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] ${
-              active === nav.title ? "text-black" : "text-neutral-400"
+              active === nav.id ? "text-black" : "text-neutral-400"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
-            onClick={() => setActive(nav.title)}
+            onClick={() => setActive(nav.id)}
           >
             <Link to={`/${nav.id}`}>{nav.title}</Link>
           </li>
@@ -45,9 +47,9 @@ const Navbar = () => {
               <li
                 key={nav.id}
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === nav.title ? "text-white" : "text-neutral-400"
+                  active === nav.id ? "text-white" : "text-neutral-400"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
-                onClick={() => setActive(nav.title)}
+                onClick={() => setActive(nav.id)}
               >
                 <Link to={`/${nav.id}`}>{nav.title}</Link>
               </li>
