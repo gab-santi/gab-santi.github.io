@@ -23,11 +23,11 @@ const AboutPage = () => {
               id={index}
               className="flex flex-col items-center py-[6px] px-4 mb-2 mr-3"
             >
-              <img
+              {/*  <img
                 className="mt-4 md:w-[60%] md:h-[60%] ss:w-full ss:h-full"
                 src={content.image}
               />
-              <p className="font-poppins italic mt-4">{content.imageCaption}</p>
+              <p className="font-poppins italic mt-4">{content.imageCaption}</p> */}
               <p className="font-poppins mt-4">{content.text}</p>
             </div>
           ))}

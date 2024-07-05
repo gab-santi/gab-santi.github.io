@@ -16,7 +16,7 @@ const Hero = () => (
     >
       <div className="flex flex-row">
         <p className={`${styles.paragraph}`}>
-          <span>Hello, world!</span>
+          <span>👋🏻 Hello, world!</span>
         </p>
       </div>
 
@@ -37,7 +37,7 @@ const Hero = () => (
 
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         I am a Data Engineer by profession. On the side, I like dabbling with
-        different technologies.
+        different technologies. 👨🏻‍💻
       </p>
 
       <div className="flex flex-wrap flex-row justify-between-items-center w-full mt-10">

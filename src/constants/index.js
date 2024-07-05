@@ -39,19 +39,19 @@ export const navLinks = [
 export const projects = [
   {
     id: "feature-1",
-    title: "Data Engineering Pipelines",
+    title: "📈 Data Engineering Pipelines",
     content:
-      "End-to-end automated pipelines for generating reports, pulling from various sources.",
+      "End-to-end automated pipelines for generating reports, pulling data from various sources.",
   },
   {
     id: "feature-2",
-    title: "Full-Stack Websites",
+    title: "🌐 Full-Stack Websites",
     content:
       "Responsive and scalable websites with backend servers, from ideation to deployment.",
   },
   {
     id: "feature-3",
-    title: "Desktop Apps",
+    title: "🖥️ Desktop Apps",
     content:
       "Local packaged instances of applications. Take everything you need offline.",
   },
@@ -311,21 +311,14 @@ export const aboutMeContent = [
     id: "work",
     image: aboutMePlaceholder,
     topic: "dummy",
-    text: "I am a data engineer based in the Philippines, with experience in creating ETL pipelines on-premise and in the cloud. I also have a bit of experience with web development and desktop app development. Currently, I work as a Data Engineering Expert for Globe Telecom, Inc.",
-    imageCaption: "Placeholder caption.",
-  },
-  {
-    id: "currents",
-    image: aboutMePlaceholder,
-    topic: "dummy",
-    text: "I was born and raised in Manila, specifically in Las Pinas City. I grew up tinkering with various gadgets, from laptops to gaming consoles. I was always curious about how things worked and how to solve problems, which made me inclined to have a career in the IT industry.",
+    text: "I am a data engineer based in the Philippines, with experience in creating ETL pipelines on-premise and in the cloud. I also have a bit of experience with web development and desktop app development. Currently, I am working as an Analytics Engineer Specialist in Maya. I was born and raised in Manila, specifically in Las Pinas City. I grew up tinkering with various gadgets, from laptops to gaming consoles. I was always curious about how these gadgets worked and how to solve problems using programming, which made me inclined to have a career in the tech industry. I have found my niche in the AI and Data space, where I chose to focus on the Data Engineering role. I also do entrepreneurship and stock market investing on the side.",
     imageCaption: "Placeholder caption.",
   },
   {
     id: "hobbies",
     image: aboutMePlaceholder,
     topic: "dummy",
-    text: "Outside of programming, I do a myriad of things. I like reading, listening to music, traveling, partying, going to the gym, and playing rhythm games competitively, mainly StepMania (SM/ITG) and Sound Voltex (SDVX). I’ve won my share of tournaments, both in-person and online, for both games. I usually stream every Sunday and Monday on Twitch! Watch me live at https://twitch.tv/freis16.",
+    text: "Outside of programming, I do a myriad of things. I like reading, listening to music, traveling to new places, working out, playing various sports, and playing rhythm games competitively, mainly StepMania (SM/ITG) and Sound Voltex (SDVX). I’ve won my share of tournaments, both in-person and online, for both games.",
     imageCaption: "Placeholder caption.",
   },
 ];
