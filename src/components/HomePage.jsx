@@ -2,6 +2,8 @@ import React from "react";
 
 import styles from "../styles";
 
+import ScrollToHashElement from "@cascadia-code/scroll-to-hash-element";
+
 import {
   Hero,
   Stats,
@@ -22,6 +24,11 @@ const HomePage = () => {
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
+          <ScrollToHashElement
+            behavior="smooth"
+            inline="center"
+            block="center"
+          />
           <Stats />
           <Projects />
           <Portfolio />

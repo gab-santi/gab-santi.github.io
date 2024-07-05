@@ -14,7 +14,7 @@ const ResumePage = () => {
           </h3>
 
           <a
-            href="https://drive.google.com/file/d/1cy8LLSZhwfpuZHfOA_TSa4rJ4vfCHjSe/view?usp=sharing"
+            href="https://drive.google.com/file/d/1NCjDlCO1bRWvq351tWV9BDMe1R-zwgDx/view?usp=sharing"
             target="_blank"
             className="font-poppins underline"
           >
@@ -24,7 +24,7 @@ const ResumePage = () => {
           {/* Resume embedded from GDrive */}
           <div className="flex flex-col items-center">
             <iframe
-              src="https://drive.google.com/file/d/1cy8LLSZhwfpuZHfOA_TSa4rJ4vfCHjSe/preview"
+              src="https://drive.google.com/file/d/1NCjDlCO1bRWvq351tWV9BDMe1R-zwgDx/preview"
               height="480"
               className="mt-5 sm:w-[100%]"
               allow="autoplay"

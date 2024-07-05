@@ -88,12 +88,12 @@ export const stats = [
   {
     id: "stats-1",
     title: "Years of Experience",
-    value: "3+",
+    value: "4+",
   },
   {
     id: "stats-2",
     title: "Companies Worked For",
-    value: "2",
+    value: "3",
   },
   {
     id: "stats-3",
@@ -182,7 +182,7 @@ export const socialMedia = [
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/FreisITG",
+    link: "https://www.x.com/__freis",
   },
   {
     id: "social-media-4",
@@ -214,7 +214,7 @@ export const clients = [
 export const languages = [
   {
     id: "language-1",
-    text: "python",
+    text: "Python",
   },
   {
     id: "language-2",
@@ -222,15 +222,27 @@ export const languages = [
   },
   {
     id: "language-3",
-    text: "linux",
+    text: "AWS",
   },
   {
     id: "language-4",
-    text: "cloud",
+    text: "GCP",
   },
   {
     id: "language-5",
-    text: "javascript",
+    text: "Azure",
+  },
+  {
+    id: "language-6",
+    text: "Airflow",
+  },
+  {
+    id: "language-7",
+    text: "dbt",
+  },
+  {
+    id: "language-8",
+    text: "Linux",
   },
 ];
 
@@ -303,17 +315,17 @@ export const aboutMeContent = [
     imageCaption: "Placeholder caption.",
   },
   {
-    id: "work",
+    id: "currents",
     image: aboutMePlaceholder,
     topic: "dummy",
     text: "I was born and raised in Manila, specifically in Las Pinas City. I grew up tinkering with various gadgets, from laptops to gaming consoles. I was always curious about how things worked and how to solve problems, which made me inclined to have a career in the IT industry.",
     imageCaption: "Placeholder caption.",
   },
   {
-    id: "work",
+    id: "hobbies",
     image: aboutMePlaceholder,
     topic: "dummy",
-    text: "Outside of programming, I do a myriad of things. I like reading, listening to music, traveling, partying, going to the gym, and playing rhythm games competitively, mainly StepMania (SM/ITG) and Sound Voltex (SDVX). I’ve won my share of tournaments, both in-person and online, for both games. I usually stream every Sunday and Monday on Twitch!",
+    text: "Outside of programming, I do a myriad of things. I like reading, listening to music, traveling, partying, going to the gym, and playing rhythm games competitively, mainly StepMania (SM/ITG) and Sound Voltex (SDVX). I’ve won my share of tournaments, both in-person and online, for both games. I usually stream every Sunday and Monday on Twitch! Watch me live at https://twitch.tv/freis16.",
     imageCaption: "Placeholder caption.",
   },
 ];

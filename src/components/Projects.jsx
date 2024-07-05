@@ -30,8 +30,7 @@ const Projects = () => {
     <section id="projects" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          I can make <br />
-          anything you need.
+          I make <br />a LOT of stuff.
         </h2>
 
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
