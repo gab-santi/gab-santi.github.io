@@ -25,6 +25,9 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import portrait from "./portrait.png";
 import placeholder from "./placeholder.png";
+import dbtProjectsImage from "./dbt-projects_img.png";
+import pySparkPipelinesImage from "./pyspark-pipelines_img.png";
+import itlScoreComparisonImage from "./itl-score-comparison_img.png";
 import aboutMePlaceholder from "./about_me_placeholder.jpg";
 
 export {
@@ -55,5 +58,8 @@ export {
   people03,
   portrait,
   placeholder,
+  dbtProjectsImage,
+  pySparkPipelinesImage,
+  itlScoreComparisonImage,
   aboutMePlaceholder,
 };

@@ -10,10 +10,10 @@ import {
   binance,
   coinbase,
   dropbox,
-  send,
-  shield,
-  star,
   placeholder,
+  dbtProjectsImage,
+  pySparkPipelinesImage,
+  itlScoreComparisonImage,
   aboutMePlaceholder,
 } from "../assets";
 
@@ -249,20 +249,36 @@ export const languages = [
 // added by Gab
 export const portfolio = [
   {
-    id: "twitter-etl",
-    image: placeholder,
-    name: "Twitter Airflow Pipleine",
-    url: "https://github.com/gab-santi/Twitter-Airflow-Project",
+    id: "dbt-projects",
+    image: dbtProjectsImage,
+    name: "[Corporate] Several dbt Projects",
+    url: "",
     description:
-      "End-to-end data pipeline written in Python that pulls from tweets, deployed thru Airflow and AWS EC2.",
+      "Created dbt projects from scratch and added new features to existing pipelines. Worked with different data warehouses across all projects (Redshift, Snowflake, MSSQL, BigQuery). Made sure to adhere to dbt's Style Guide.",
   },
   {
-    id: "twitter-discord-bot",
-    image: placeholder,
-    name: "Twitter Discord Bot",
-    url: "https://www.google.com/",
+    id: "pyspark-pipelines",
+    image: pySparkPipelinesImage,
+    name: "[Corporate] PySpark Data Pipeline",
+    url: "",
     description:
-      "Discord bot written in Python that pulls latest tweet data from users, deployed thru Heroku.",
+      "Designed, developed, and deployed a PySpark data pipeline running on-premise, using various sources and business rules. Ensured clarity of requirements via consistent communication with client.",
+  },
+  {
+    id: "itl-score-comparison",
+    image: itlScoreComparisonImage,
+    name: "Azure Databricks DE Project",
+    url: "https://github.com/gab-santi/itl-2023-vs-2024-freis",
+    description:
+      "Created a data project in Azure Databricks. Extracted JSON data and properly formatted it for different types of analysis.",
+  },
+  {
+    id: "ml-model-migration",
+    image: placeholder,
+    name: "[Corporate] PySpark ML Model Migrated to Snowpark ML",
+    url: "",
+    description:
+      "Fully migrated a PySpark model running on-premise, to run fully in Snowflake using the Snowpark ML library. Was able to migrate the whole end-to-end process since the data sources for the model were also available in Snowflake.",
   },
   {
     id: "personal-website",
@@ -270,7 +286,7 @@ export const portfolio = [
     name: "Personal Portfolio Website",
     url: "https://github.com/gab-santi/gabsanti-portfolio-website",
     description:
-      "This cool website, made with Vite, React.js, and TailwindCSS.",
+      "This cool website that you are visiting rn, made with Vite, React.js, and TailwindCSS.",
   },
   {
     id: "electron-react-frontend",
@@ -303,6 +319,22 @@ export const portfolio = [
     description:
       "A deep learning model that can detect malaria presence in blood smear images, developed using OpenCV, TensorFlow, and Keras.",
   },
+  {
+    id: "twitter-etl",
+    image: placeholder,
+    name: "[Deprecated] Twitter Airflow Pipleine",
+    url: "https://github.com/gab-santi/Twitter-Airflow-Project",
+    description:
+      "End-to-end data pipeline written in Python that pulls from tweets, deployed thru Airflow and AWS EC2.",
+  },
+  {
+    id: "twitter-discord-bot",
+    image: placeholder,
+    name: "[Deprecated] Twitter Discord Bot",
+    url: "https://www.google.com/",
+    description:
+      "Discord bot written in Python that pulls latest tweet data from users, deployed thru Heroku.",
+  },
 ];
 
 // added by Gab
@@ -311,7 +343,7 @@ export const aboutMeContent = [
     id: "work",
     image: aboutMePlaceholder,
     topic: "dummy",
-    text: "I am a data engineer based in the Philippines, with experience in creating ETL pipelines on-premise and in the cloud. I also have a bit of experience with web development and desktop app development. Currently, I am working as an Analytics Engineer Specialist in Maya. I was born and raised in Manila, specifically in Las Pinas City. I grew up tinkering with various gadgets, from laptops to gaming consoles. I was always curious about how these gadgets worked and how to solve problems using programming, which made me inclined to have a career in the tech industry. I have found my niche in the AI and Data space, where I chose to focus on the Data Engineering role. I also do entrepreneurship and stock market investing on the side.",
+    text: "I am a data engineer based in the Philippines, with experience in creating ETL pipelines on-premise and in the cloud. I also have a bit of experience with web development and desktop app development. I was born and raised in Manila, specifically in Las Pinas City. I grew up tinkering with various gadgets, from laptops to gaming consoles. I was always curious about how these gadgets worked and how to solve problems using programming, which made me inclined to have a career in the tech industry. I have found my niche in the AI and Data space, where I chose to focus on the Data Engineering role. I also do entrepreneurship and stock market investing on the side.",
     imageCaption: "Placeholder caption.",
   },
   {
