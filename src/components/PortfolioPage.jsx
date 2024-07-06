@@ -10,6 +10,10 @@ const PortfolioPage = () => {
     document.title = "gabsanti | Portfolio";
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <section id="portfoliopage">
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
