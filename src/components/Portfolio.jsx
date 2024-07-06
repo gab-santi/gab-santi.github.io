@@ -28,7 +28,7 @@ const Portfolio = () => (
     <div className="flex md:flex-row flex-col">
       <h2 className={styles.heading2}>Latest Projects</h2>
       <a
-        href=""
+        href="/portfolio"
         className="underline decoration-1 w-full md:text-right text-left mt-6"
       >
         View All
