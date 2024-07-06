@@ -1,19 +1,18 @@
 import {
-  people01,
-  people02,
-  people03,
   facebook,
   instagram,
   linkedin,
   twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
-  placeholder,
   dbtProjectsImage,
   pySparkPipelinesImage,
   itlScoreComparisonImage,
+  mlModelMigrationImage,
+  personalWebsiteImage,
+  electronReactFrontendImage,
+  facebookPageScraperImage,
+  exerciseTrackerImage,
+  malariaDetectionImage,
+  deprecatedTwitterImage,
   aboutMePlaceholder,
 } from "../assets";
 
@@ -57,33 +56,6 @@ export const projects = [
   },
 ];
 
-export const feedback = [
-  {
-    id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
-  },
-  {
-    id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
-  },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
-];
-
 export const stats = [
   {
     id: "stats-1",
@@ -99,72 +71,6 @@ export const stats = [
     id: "stats-3",
     title: "Total Benefit Incurred",
     value: "$10M+",
-  },
-];
-
-export const footerLinks = [
-  {
-    title: "Useful Links",
-    links: [
-      {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
-  },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
   },
 ];
 
@@ -191,26 +97,6 @@ export const socialMedia = [
   },
 ];
 
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
-];
-
-// added by Gab
 export const languages = [
   {
     id: "language-1",
@@ -274,7 +160,7 @@ export const portfolio = [
   },
   {
     id: "ml-model-migration",
-    image: placeholder,
+    image: mlModelMigrationImage,
     name: "[Corporate] PySpark ML Model Migrated to Snowpark ML",
     url: "",
     description:
@@ -282,7 +168,7 @@ export const portfolio = [
   },
   {
     id: "personal-website",
-    image: placeholder,
+    image: personalWebsiteImage,
     name: "Personal Portfolio Website",
     url: "https://github.com/gab-santi/gabsanti-portfolio-website",
     description:
@@ -290,7 +176,7 @@ export const portfolio = [
   },
   {
     id: "electron-react-frontend",
-    image: placeholder,
+    image: electronReactFrontendImage,
     name: "Electron + React App Frontend",
     url: "https://github.com/gab-santi/electron-react-frontend",
     description:
@@ -298,14 +184,14 @@ export const portfolio = [
   },
   {
     id: "facebook-page-scraper",
-    image: placeholder,
+    image: facebookPageScraperImage,
     name: "Facebook Page Scraper",
     url: "https://github.com/gab-santi/facebook-page-scraper",
     description: "Scrapes public Facebook page post data without an API key.",
   },
   {
     id: "exercise-tracker",
-    image: placeholder,
+    image: exerciseTrackerImage,
     name: "Exercise Tracker Website",
     url: "https://github.com/gab-santi/ModernFullStackPractice",
     description:
@@ -313,7 +199,7 @@ export const portfolio = [
   },
   {
     id: "malaria-detection",
-    image: placeholder,
+    image: malariaDetectionImage,
     name: "Malaria Detection Using Convolutional Neural Networks",
     url: "https://github.com/gab-santi/Malaria-Detection-using-Convolutional-Neural-Networks",
     description:
@@ -321,7 +207,7 @@ export const portfolio = [
   },
   {
     id: "twitter-etl",
-    image: placeholder,
+    image: deprecatedTwitterImage,
     name: "[Deprecated] Twitter Airflow Pipleine",
     url: "https://github.com/gab-santi/Twitter-Airflow-Project",
     description:
@@ -329,15 +215,14 @@ export const portfolio = [
   },
   {
     id: "twitter-discord-bot",
-    image: placeholder,
+    image: deprecatedTwitterImage,
     name: "[Deprecated] Twitter Discord Bot",
-    url: "https://www.google.com/",
+    url: "",
     description:
       "Discord bot written in Python that pulls latest tweet data from users, deployed thru Heroku.",
   },
 ];
 
-// added by Gab
 export const aboutMeContent = [
   {
     id: "work",
