@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles";
 
 import Footer from "./Footer";
@@ -6,6 +6,10 @@ import Footer from "./Footer";
 import { aboutMeContent } from "../constants";
 
 const AboutPage = () => {
+  useEffect(() => {
+    document.title = "gabsanti | About";
+  }, []);
+
   return (
     <section id="aboutpage">
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>

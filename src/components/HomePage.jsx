@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import styles from "../styles";
 
@@ -14,6 +14,10 @@ import {
 } from "../components";
 
 const HomePage = () => {
+  useEffect(() => {
+    document.title = "gabsanti";
+  }, []);
+
   return (
     <section id="homepage">
       <div className={`bg-primary ${styles.flexStart}`}>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles";
 
 import Footer from "./Footer";
@@ -6,6 +6,10 @@ import Footer from "./Footer";
 import { portfolio } from "../constants";
 
 const PortfolioPage = () => {
+  useEffect(() => {
+    document.title = "gabsanti | Portfolio";
+  }, []);
+
   return (
     <section id="portfoliopage">
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>

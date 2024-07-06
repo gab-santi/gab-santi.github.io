@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles";
 
 import Footer from "./Footer";
 
 const ResumePage = () => {
+  useEffect(() => {
+    document.title = "gabsanti | Resume";
+  }, []);
+
   return (
     <section id="portfoliopage">
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
